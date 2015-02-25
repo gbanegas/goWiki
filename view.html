@@ -1,0 +1,16 @@
+ <html>
+ <head>
+ <link rel="stylesheet" type="text/css" media="screen" href="stylen.css" />
+ <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+ <script type="text/javascript" src="javascript/modernizr-1.5.min.js"></script>
+ </head>
+ <body>
+ <div>
+<h1>{{.Title}}</h1>
+
+<p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+<div>{{printf "%s" .Body}}</div>
+</div>
+</body>
+</html>
